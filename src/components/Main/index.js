@@ -1,12 +1,19 @@
-import React from "react";
-import Section from "../Section";
-import {Container}  from "../../style/Container.styled"
+// Style
+import { Container } from "../../style/Container.styled";
+import { MainStyled } from "./Main.styled";
+
+// Components
+import ContentSection from "../ContentSection";
+import AboutSection from "../AboutSection";
 
 const Main = () => {
   return (
-    <Container>
-      <Section />
-    </Container>
+    <MainStyled>
+      <Container>
+        <ContentSection />
+        <AboutSection />
+      </Container>
+    </MainStyled>
   );
 };
 

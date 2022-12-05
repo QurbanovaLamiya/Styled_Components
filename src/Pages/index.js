@@ -1,8 +1,8 @@
 import { Fragment } from "react";
 import GlobalStyle from "../style/Global.styled";
-import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Main from "../components/Main";
+import Footer from "../components/Footer";
 
 const Pages = () => {
   return (

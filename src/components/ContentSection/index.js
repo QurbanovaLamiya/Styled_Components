@@ -1,9 +1,15 @@
 import { Button } from "../../style/Button.styled";
-import { Context, Title,Text, Content, ContextImage, Image } from "./Section.styled";
-
 import IllustrationMockUps from "../../images/illustration-mockups.svg";
+import {
+  Context,
+  Title,
+  Text,
+  Content,
+  ContextImage,
+  Image,
+} from "./ContentSection.styled";
 
-const Section = () => {
+const ContentSection = () => {
   return (
     <Context>
       <Content>
@@ -13,7 +19,7 @@ const Section = () => {
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
         </Text>
-        <Button bg="#ff0099" color="#fff">
+        <Button bg="#f09" color="#fff">
           Get Started For Free
         </Button>
       </Content>
@@ -24,4 +30,4 @@ const Section = () => {
   );
 };
 
-export default Section;
+export default ContentSection;
